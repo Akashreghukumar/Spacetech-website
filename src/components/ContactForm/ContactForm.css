@@ -1,0 +1,45 @@
+.container{
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: black; */
+    color: black;
+
+}
+
+.emailinput{
+    height:50px;
+    width:80%;
+    margin-left:40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 15px;
+    background-color: black;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.messageinput{
+    width:80%;
+    margin-left:20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 20px;
+    background-color: black;
+    color: gray;
+    
+}
+
+.sendbtn{
+    height: 40px;
+    width: 150px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+
+}

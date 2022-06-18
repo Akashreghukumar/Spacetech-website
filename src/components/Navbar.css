@@ -1,0 +1,63 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    /* color: white; */
+}
+
+.navbuttons{
+    display: flex;
+    
+    
+}
+
+li a{
+    color: blueviolet;
+}
+
+.navbutton{
+    /* margin-right: 50px; */
+    padding: 0 1rem;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hamburger.active{
+    left: 0;
+}
+
+@media screen and (max-width:1240px) {
+    .hamburger{
+        display: block;
+    }
+    .navbuttons{
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: 0.3s;
+        /* background: rgba(0, 0, 0, 0.9); */
+        background: "white";
+    }
+
+    .navbuttons li{
+        padding: 1em;
+
+    }
+    
+
+    .navbuttons a{
+        font-size: 2em;
+    }
+}
